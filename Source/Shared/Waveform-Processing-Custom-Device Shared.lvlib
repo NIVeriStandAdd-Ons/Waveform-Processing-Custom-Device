@@ -4,11 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Types" Type="Folder">
-			<Item Name="CompiledSettings.ctl" Type="VI" URL="../CompiledSettings.ctl"/>
-			<Item Name="VS Return Block Data Refs.ctl" Type="VI" URL="../VS Return Block Data Refs.ctl"/>
-			<Item Name="VSChannel.ctl" Type="VI" URL="../VSChannel.ctl"/>
-		</Item>
+		<Item Name="Types" Type="Folder"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 </Library>
