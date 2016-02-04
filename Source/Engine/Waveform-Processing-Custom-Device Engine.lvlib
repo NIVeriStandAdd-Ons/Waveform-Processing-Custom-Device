@@ -13,6 +13,10 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Async FIFOs.ctl" Type="VI" URL="../Types/Async FIFOs.ctl"/>
 		<Item Name="Async Parameters.ctl" Type="VI" URL="../Types/Async Parameters.ctl"/>
+<<<<<<< HEAD
+=======
+		<Item Name="Async Settings.ctl" Type="VI" URL="../Types/Async Settings.ctl"/>
+>>>>>>> 40a6f79053483a46ff00db10d7e7dbadf50957aa
 		<Item Name="StateVars.ctl" Type="VI" URL="../Types/StateVars.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
