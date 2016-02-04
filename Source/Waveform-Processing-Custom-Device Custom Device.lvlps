@@ -7,15 +7,7 @@ Cache_Path[Path] Line0001 = "/C/Users/achurch/AppData/Local/Temp/AB_Cache_{1E93"
 Cache_Path[Path] Line0002 = "022C-2E5B-4058-865F-DEB05CE955D3}.txt"
 
 [ProjectWindow_Data]
-<<<<<<< HEAD
-<<<<<<< HEAD
 ProjectExplorer.ClassicPosition[String] = "117,1190,877,1621"
-=======
-ProjectExplorer.ClassicPosition[String] = "172,-3741,932,-3310"
->>>>>>> 40a6f79053483a46ff00db10d7e7dbadf50957aa
-=======
-ProjectExplorer.ClassicPosition[String] = "172,-2814,932,-2383"
->>>>>>> parent of b978229... Added types for CompiledSettings, Async Parameters. Updated inline and engine modules.
 
 [AB_Cache_{C72B7E85-C986-4628-A4AF-93FE5FFE5918}]
 Cache_Path[Path] Line0001 = "/C/Users/achurch/AppData/Local/Temp/AB_Cache_{C72B"
