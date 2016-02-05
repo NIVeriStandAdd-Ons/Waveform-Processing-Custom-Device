@@ -8,8 +8,11 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Initialize State Variables.vi" Type="VI" URL="../SubVIs/Initialize State Variables.vi"/>
-		<Item Name="Obtain Waveform Session.vi" Type="VI" URL="../../../../../Desktop/Waveform-Processing-Custom-Device/Source/Engine/SubVIs/Obtain Waveform Session.vi"/>
+		<Item Name="Obtain Waveform Session.vi" Type="VI" URL="../SubVIs/Obtain Waveform Session.vi"/>
 		<Item Name="Refresh Host Parameters.vi" Type="VI" URL="../SubVIs/Refresh Host Parameters.vi"/>
+	</Item>
+	<Item Name="Test Harness" Type="Folder">
+		<Item Name="Test Harness.vi" Type="VI" URL="../Test Harness/Test Harness.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Async FIFOs.ctl" Type="VI" URL="../Types/Async FIFOs.ctl"/>
