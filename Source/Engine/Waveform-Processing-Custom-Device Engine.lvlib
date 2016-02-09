@@ -4,11 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Asynchronous" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Processing Steps" Type="Folder">
+			<Item Name="Running Average.vi" Type="VI" URL="../Asynchronous/Processing Steps/Running Average.vi"/>
+		</Item>
 		<Item Name="Asynchronous Engine.vi" Type="VI" URL="../Asynchronous/Asynchronous Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Initialize State Variables.vi" Type="VI" URL="../SubVIs/Initialize State Variables.vi"/>
-		<Item Name="Obtain Waveform Session.vi" Type="VI" URL="../SubVIs/Obtain Waveform Session.vi"/>
+		<Item Name="Obtain Waveform Sessions.vi" Type="VI" URL="../SubVIs/Obtain Waveform Sessions.vi"/>
 		<Item Name="Refresh Host Parameters.vi" Type="VI" URL="../SubVIs/Refresh Host Parameters.vi"/>
 	</Item>
 	<Item Name="Test Harness" Type="Folder">
