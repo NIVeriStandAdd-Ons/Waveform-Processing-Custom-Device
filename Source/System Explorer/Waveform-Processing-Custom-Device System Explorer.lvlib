@@ -10,15 +10,17 @@
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Results Section.vi" Type="VI" URL="../Pages/Results Section.vi"/>
-				<Item Name="Running Average.vi" Type="VI" URL="../Running Average.vi"/>
+				<Item Name="Running Average Channel.vi" Type="VI" URL="../Pages/Running Average Channel.vi"/>
+				<Item Name="Running Average Settings.vi" Type="VI" URL="../Pages/Running Average Settings.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add Result Sections.vi" Type="VI" URL="../SubVIs/Add Result Sections.vi"/>
-			<Item Name="Get Wfm Refs.vi" Type="VI" URL="../SubVIs/Get Wfm Refs.vi"/>
-			<Item Name="GetWaveforms.vi" Type="VI" URL="../SubVIs/GetWaveforms.vi"/>
+			<Item Name="Get Result Section Refs.vi" Type="VI" URL="../SubVIs/Get Result Section Refs.vi"/>
+			<Item Name="Get Source Wfm Refs.vi" Type="VI" URL="../SubVIs/Get Source Wfm Refs.vi"/>
+			<Item Name="Get Waveforms.vi" Type="VI" URL="../SubVIs/Get Waveforms.vi"/>
 			<Item Name="Remove Result Sections.vi" Type="VI" URL="../SubVIs/Remove Result Sections.vi"/>
 		</Item>
 	</Item>

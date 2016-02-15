@@ -68,8 +68,8 @@
     
 <Page>
       <Name>
-        <eng>Running Average</eng>
-        <loc>Running Average</loc>
+        <eng>Running Average Settings</eng>
+        <loc>Running Average Settings</loc>
       </Name>
       <GUID>98bae003-a8c4-4cad-9e5d-6f3690f27bc7</GUID>
       <Glyph>
@@ -78,9 +78,24 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Running Average.vi</Path>
+		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Running Average Settings.vi</Path>
       </Item2Launch>
     </Page>
+<Page>
+      <Name>
+        <eng>Running Average Channel</eng>
+        <loc>Running Average Channel</loc>
+      </Name>
+      <GUID>3790a34f-1e18-4e2c-a6c2-08a2f1ece6bf</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Running Average Channel.vi</Path>
+      </Item2Launch>
+</Page>
 <Page>
       <Name>
         <eng>Results Section</eng>
