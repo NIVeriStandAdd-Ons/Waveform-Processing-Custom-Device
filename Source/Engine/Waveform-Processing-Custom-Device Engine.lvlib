@@ -8,12 +8,21 @@
 		<Item Name="Processing Steps" Type="Folder">
 			<Item Name="Running Average.vi" Type="VI" URL="../Asynchronous/Processing Steps/Running Average.vi"/>
 		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Wfm Data FG.vi" Type="VI" URL="../Asynchronous/SubVIs/Wfm Data FG.vi"/>
+			<Item Name="Read Parameter FIFO.vi" Type="VI" URL="../Asynchronous/SubVIs/Read Parameter FIFO.vi"/>
+			<Item Name="Read Wfm Data.vi" Type="VI" URL="../Asynchronous/SubVIs/Read Wfm Data.vi"/>
+			<Item Name="Update Buffer.vi" Type="VI" URL="../Asynchronous/SubVIs/Update Buffer.vi"/>
+		</Item>
 		<Item Name="Asynchronous Engine.vi" Type="VI" URL="../Asynchronous/Asynchronous Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Close Wfm Sessions.vi" Type="VI" URL="../SubVIs/Close Wfm Sessions.vi"/>
 		<Item Name="Initialize State Variables.vi" Type="VI" URL="../SubVIs/Initialize State Variables.vi"/>
 		<Item Name="Obtain Waveform Sessions.vi" Type="VI" URL="../SubVIs/Obtain Waveform Sessions.vi"/>
 		<Item Name="Refresh Host Parameters.vi" Type="VI" URL="../SubVIs/Refresh Host Parameters.vi"/>
+		<Item Name="Send Tag Results to Inline.vi" Type="VI" URL="../Asynchronous/SubVIs/Send Tag Results to Inline.vi"/>
+		<Item Name="Write Results to VS Engine.vi" Type="VI" URL="../SubVIs/Write Results to VS Engine.vi"/>
 	</Item>
 	<Item Name="Test Harness" Type="Folder">
 		<Item Name="Test Harness.vi" Type="VI" URL="../Test Harness/Test Harness.vi"/>
@@ -21,6 +30,7 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Async FIFOs.ctl" Type="VI" URL="../Types/Async FIFOs.ctl"/>
 		<Item Name="Async Parameters.ctl" Type="VI" URL="../Types/Async Parameters.ctl"/>
+		<Item Name="Async State Vars.ctl" Type="VI" URL="../Asynchronous/SubVIs/Async State Vars.ctl"/>
 		<Item Name="StateVars.ctl" Type="VI" URL="../Types/StateVars.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">

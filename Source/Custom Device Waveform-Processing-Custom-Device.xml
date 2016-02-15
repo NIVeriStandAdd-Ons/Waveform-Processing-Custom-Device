@@ -60,6 +60,10 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+	  <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
     </Page>
     
 <Page>
@@ -77,6 +81,21 @@
 		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Running Average.vi</Path>
       </Item2Launch>
     </Page>
+<Page>
+      <Name>
+        <eng>Results Section</eng>
+        <loc>Results Section</loc>
+      </Name>
+      <GUID>e38e89f1-3d1b-4012-b75e-d54b3a46b12e</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Results Section.vi</Path>
+      </Item2Launch>
+ </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>

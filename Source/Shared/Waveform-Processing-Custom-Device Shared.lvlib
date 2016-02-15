@@ -10,5 +10,6 @@
 			<Item Name="VSChannel.ctl" Type="VI" URL="../VSChannel.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="Running Average.lvlib" Type="Library" URL="../Running Average/Running Average.lvlib"/>
 	</Item>
 </Library>
