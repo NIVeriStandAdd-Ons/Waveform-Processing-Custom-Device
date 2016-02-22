@@ -6,6 +6,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Engine" Type="Folder">
+		<Item Name="Running Average.vi" Type="VI" URL="../../../Engine/Asynchronous/Processing Steps/Running Average.vi"/>
+	</Item>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="RunningAverage-AddResultChannels.vi" Type="VI" URL="../RunningAverage-AddResultChannels.vi"/>
 		<Item Name="RunningAverage-AddSection.vi" Type="VI" URL="../RunningAverage-AddSection.vi"/>

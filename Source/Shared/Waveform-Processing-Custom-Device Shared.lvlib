@@ -6,10 +6,9 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
 			<Item Name="CompiledSettings.ctl" Type="VI" URL="../CompiledSettings.ctl"/>
-			<Item Name="VS Return Block Data Refs.ctl" Type="VI" URL="../VS Return Block Data Refs.ctl"/>
-			<Item Name="VSChannel.ctl" Type="VI" URL="../VSChannel.ctl"/>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="Running Average.lvlib" Type="Library" URL="../Running Average/Running Average.lvlib"/>
+		<Item Name="SinglePoint.lvlib" Type="Library" URL="../Single-Point/SinglePoint.lvlib"/>
 	</Item>
 </Library>

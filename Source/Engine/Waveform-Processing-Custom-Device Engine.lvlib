@@ -5,24 +5,23 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Asynchronous" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Processing Steps" Type="Folder">
-			<Item Name="Running Average.vi" Type="VI" URL="../Asynchronous/Processing Steps/Running Average.vi"/>
-		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Wfm Data FG.vi" Type="VI" URL="../Asynchronous/SubVIs/Wfm Data FG.vi"/>
-			<Item Name="Read Parameter FIFO.vi" Type="VI" URL="../Asynchronous/SubVIs/Read Parameter FIFO.vi"/>
+			<Item Name="Read From VS Parameter FIFO.vi" Type="VI" URL="../Asynchronous/SubVIs/Read From VS Parameter FIFO.vi"/>
 			<Item Name="Read Wfm Data.vi" Type="VI" URL="../Asynchronous/SubVIs/Read Wfm Data.vi"/>
-			<Item Name="Update Buffer.vi" Type="VI" URL="../Asynchronous/SubVIs/Update Buffer.vi"/>
+			<Item Name="Open Waveform Sessions.vi" Type="VI" URL="../SubVIs/Open Waveform Sessions.vi"/>
+			<Item Name="Init Async State Vars.vi" Type="VI" URL="../Asynchronous/SubVIs/Init Async State Vars.vi"/>
+			<Item Name="Init Buffer.vi" Type="VI" URL="../Asynchronous/SubVIs/Init Buffer.vi"/>
+			<Item Name="Write To VS Result FIFO.vi" Type="VI" URL="../Asynchronous/SubVIs/Write To VS Result FIFO.vi"/>
 		</Item>
 		<Item Name="Asynchronous Engine.vi" Type="VI" URL="../Asynchronous/Asynchronous Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Build Async Parameters.vi" Type="VI" URL="../SubVIs/Build Async Parameters.vi"/>
 		<Item Name="Close Wfm Sessions.vi" Type="VI" URL="../SubVIs/Close Wfm Sessions.vi"/>
-		<Item Name="Initialize State Variables.vi" Type="VI" URL="../SubVIs/Initialize State Variables.vi"/>
-		<Item Name="Obtain Waveform Sessions.vi" Type="VI" URL="../SubVIs/Obtain Waveform Sessions.vi"/>
-		<Item Name="Refresh Host Parameters.vi" Type="VI" URL="../SubVIs/Refresh Host Parameters.vi"/>
-		<Item Name="Send Tag Results to Inline.vi" Type="VI" URL="../Asynchronous/SubVIs/Send Tag Results to Inline.vi"/>
-		<Item Name="Write Results to VS Engine.vi" Type="VI" URL="../SubVIs/Write Results to VS Engine.vi"/>
+		<Item Name="Create Async FIFOs.vi" Type="VI" URL="../SubVIs/Create Async FIFOs.vi"/>
+		<Item Name="Get Block Data Refs.vi" Type="VI" URL="../Get Block Data Refs.vi"/>
+		<Item Name="Get Wfm Data Refs.vi" Type="VI" URL="../Get Wfm Data Refs.vi"/>
+		<Item Name="Init Inline State Variables.vi" Type="VI" URL="../SubVIs/Init Inline State Variables.vi"/>
 	</Item>
 	<Item Name="Test Harness" Type="Folder">
 		<Item Name="Test Harness.vi" Type="VI" URL="../Test Harness/Test Harness.vi"/>
@@ -30,8 +29,8 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Async FIFOs.ctl" Type="VI" URL="../Types/Async FIFOs.ctl"/>
 		<Item Name="Async Parameters.ctl" Type="VI" URL="../Types/Async Parameters.ctl"/>
-		<Item Name="Async State Vars.ctl" Type="VI" URL="../Asynchronous/SubVIs/Async State Vars.ctl"/>
-		<Item Name="StateVars.ctl" Type="VI" URL="../Types/StateVars.ctl"/>
+		<Item Name="Async State Vars.ctl" Type="VI" URL="../Types/Async State Vars.ctl"/>
+		<Item Name="Inline State Vars.ctl" Type="VI" URL="../Types/Inline State Vars.ctl"/>
 	</Item>
 	<Item Name="Userlib" Type="Folder">
 		<Item Name="Error Handling API" Type="Folder">
