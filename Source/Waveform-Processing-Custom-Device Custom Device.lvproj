@@ -15,7 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
@@ -27,7 +27,9 @@
 		<Item Name="Waveform-Processing-Custom-Device System Explorer.lvlib" Type="Library" URL="../System Explorer/Waveform-Processing-Custom-Device System Explorer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Circular Buffer.lvlib" Type="Library" URL="/&lt;userlib&gt;/Circular Buffer/Circular Buffer.lvlib"/>
+				<Item Name="Circular Buffer Operations.ctl" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Controls/Circular Buffer Operations.ctl"/>
+				<Item Name="Circular Buffer.vi" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Circular Buffer.vi"/>
+				<Item Name="Circular Buffer(2D DBL).vi" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Instance VIs/Circular Buffer(2D DBL).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -343,14 +345,16 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Waveform-Processing-Custom-Device Engine.lvlib" Type="Library" URL="../Engine/Waveform-Processing-Custom-Device Engine.lvlib"/>
 		<Item Name="Waveform-Processing-Custom-Device Shared.lvlib" Type="Library" URL="../Shared/Waveform-Processing-Custom-Device Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Circular Buffer.lvlib" Type="Library" URL="/&lt;userlib&gt;/Circular Buffer/Circular Buffer.lvlib"/>
+				<Item Name="Circular Buffer Operations.ctl" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Controls/Circular Buffer Operations.ctl"/>
+				<Item Name="Circular Buffer(2D DBL).vi" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Instance VIs/Circular Buffer(2D DBL).vi"/>
+				<Item Name="Circular Buffer.vi" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Circular Buffer.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -595,14 +599,16 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Waveform-Processing-Custom-Device Engine.lvlib" Type="Library" URL="../Engine/Waveform-Processing-Custom-Device Engine.lvlib"/>
 		<Item Name="Waveform-Processing-Custom-Device Shared.lvlib" Type="Library" URL="../Shared/Waveform-Processing-Custom-Device Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Circular Buffer.lvlib" Type="Library" URL="/&lt;userlib&gt;/Circular Buffer/Circular Buffer.lvlib"/>
+				<Item Name="Circular Buffer Operations.ctl" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Controls/Circular Buffer Operations.ctl"/>
+				<Item Name="Circular Buffer(2D DBL).vi" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Instance VIs/Circular Buffer(2D DBL).vi"/>
+				<Item Name="Circular Buffer.vi" Type="VI" URL="/&lt;userlib&gt;/Circular Buffer/Circular Buffer.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
