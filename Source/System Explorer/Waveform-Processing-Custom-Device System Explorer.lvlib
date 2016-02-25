@@ -23,9 +23,9 @@
 			<Item Name="Get Source Wfm Refs.vi" Type="VI" URL="../SubVIs/Get Source Wfm Refs.vi"/>
 			<Item Name="Get Task Rate.vi" Type="VI" URL="../SubVIs/Get Task Rate.vi"/>
 			<Item Name="Get Waveform Tasks.vi" Type="VI" URL="../SubVIs/Get Waveform Tasks.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../logicalstringarraysort.llb/Logical String Array Sort.vi"/>
 			<Item Name="Populate Available Wfms.vi" Type="VI" URL="../SubVIs/Populate Available Wfms.vi"/>
 			<Item Name="Remove Result Sections.vi" Type="VI" URL="../SubVIs/Remove Result Sections.vi"/>
 		</Item>
-		<Item Name="Logical String Array Sort.vi" Type="VI" URL="../logicalstringarraysort.llb/Logical String Array Sort.vi"/>
 	</Item>
 </Library>
