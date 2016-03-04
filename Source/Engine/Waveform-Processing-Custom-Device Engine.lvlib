@@ -12,15 +12,15 @@
 			<Item Name="Init Async State Vars.vi" Type="VI" URL="../Asynchronous/SubVIs/Init Async State Vars.vi"/>
 			<Item Name="Init Buffer.vi" Type="VI" URL="../Asynchronous/SubVIs/Init Buffer.vi"/>
 			<Item Name="Write To VS Result FIFO.vi" Type="VI" URL="../Asynchronous/SubVIs/Write To VS Result FIFO.vi"/>
+			<Item Name="Close Wfm Sessions.vi" Type="VI" URL="../SubVIs/Close Wfm Sessions.vi"/>
 		</Item>
 		<Item Name="Asynchronous Engine.vi" Type="VI" URL="../Asynchronous/Asynchronous Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Build Async Parameters.vi" Type="VI" URL="../SubVIs/Build Async Parameters.vi"/>
-		<Item Name="Close Wfm Sessions.vi" Type="VI" URL="../SubVIs/Close Wfm Sessions.vi"/>
 		<Item Name="Create Async FIFOs.vi" Type="VI" URL="../SubVIs/Create Async FIFOs.vi"/>
-		<Item Name="Get Block Data Refs.vi" Type="VI" URL="../Get Block Data Refs.vi"/>
-		<Item Name="Get Wfm Data Refs.vi" Type="VI" URL="../Get Wfm Data Refs.vi"/>
+		<Item Name="Get Block Data Refs.vi" Type="VI" URL="../SubVIs/Get Block Data Refs.vi"/>
+		<Item Name="Get Wfm Data Refs.vi" Type="VI" URL="../SubVIs/Get Wfm Data Refs.vi"/>
 		<Item Name="Init Inline State Variables.vi" Type="VI" URL="../SubVIs/Init Inline State Variables.vi"/>
 	</Item>
 	<Item Name="Test Harness" Type="Folder">

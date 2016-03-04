@@ -6,7 +6,9 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
 			<Item Name="CompiledSettings.ctl" Type="VI" URL="../CompiledSettings.ctl"/>
+			<Item Name="Custom Device Settings.ctl" Type="VI" URL="../Custom Device Settings.ctl"/>
 		</Item>
+		<Item Name="CD Config Settings FG.vi" Type="VI" URL="../CD Config Settings FG.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		<Item Name="Running Average.lvlib" Type="Library" URL="../Running Average/Running Average.lvlib"/>
 		<Item Name="SinglePoint.lvlib" Type="Library" URL="../Single-Point/SinglePoint.lvlib"/>
