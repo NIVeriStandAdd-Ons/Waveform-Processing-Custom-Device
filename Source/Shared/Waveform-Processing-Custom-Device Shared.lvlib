@@ -7,6 +7,8 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="CompiledSettings.ctl" Type="VI" URL="../CompiledSettings.ctl"/>
 			<Item Name="Custom Device Settings.ctl" Type="VI" URL="../Custom Device Settings.ctl"/>
+			<Item Name="FG Action.ctl" Type="VI" URL="../Types/FG Action.ctl"/>
+			<Item Name="UI Refs Ctl.ctl" Type="VI" URL="../../System Explorer/Types/UI Refs Ctl.ctl"/>
 		</Item>
 		<Item Name="CD Config Settings FG.vi" Type="VI" URL="../CD Config Settings FG.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>

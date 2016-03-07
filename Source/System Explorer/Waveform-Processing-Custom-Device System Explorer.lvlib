@@ -18,14 +18,16 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Add Result Sections.vi" Type="VI" URL="../SubVIs/Add Result Sections.vi"/>
-			<Item Name="Get Result Section Refs.vi" Type="VI" URL="../SubVIs/Get Result Section Refs.vi"/>
+			<Item Name="Add Waveform Sections.vi" Type="VI" URL="../SubVIs/Add Waveform Sections.vi"/>
+			<Item Name="Add Waveforms from ListBox.vi" Type="VI" URL="../SubVIs/Add Waveforms from ListBox.vi"/>
 			<Item Name="Get Source Wfm Refs.vi" Type="VI" URL="../SubVIs/Get Source Wfm Refs.vi"/>
 			<Item Name="Get Task Rate.vi" Type="VI" URL="../SubVIs/Get Task Rate.vi"/>
+			<Item Name="Get Waveform Section Refs.vi" Type="VI" URL="../SubVIs/Get Waveform Section Refs.vi"/>
 			<Item Name="Get Waveform Tasks.vi" Type="VI" URL="../SubVIs/Get Waveform Tasks.vi"/>
 			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../logicalstringarraysort.llb/Logical String Array Sort.vi"/>
 			<Item Name="Populate Available Wfms.vi" Type="VI" URL="../SubVIs/Populate Available Wfms.vi"/>
-			<Item Name="Remove Result Sections.vi" Type="VI" URL="../SubVIs/Remove Result Sections.vi"/>
+			<Item Name="Remove All Waveforms.vi" Type="VI" URL="../SubVIs/Remove All Waveforms.vi"/>
+			<Item Name="Remove Waveforms from ListBox.vi" Type="VI" URL="../SubVIs/Remove Waveforms from ListBox.vi"/>
 		</Item>
 	</Item>
 </Library>
