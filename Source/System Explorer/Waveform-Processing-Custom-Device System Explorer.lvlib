@@ -9,10 +9,11 @@
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Results Section.vi" Type="VI" URL="../Pages/Results Section.vi"/>
-				<Item Name="Running Average Channel.vi" Type="VI" URL="../Pages/Running Average Channel.vi"/>
 				<Item Name="Running Average Settings.vi" Type="VI" URL="../Pages/Running Average Settings.vi"/>
-				<Item Name="Single Point Channel.vi" Type="VI" URL="../Pages/Single Point Channel.vi"/>
+				<Item Name="Waveform Results Section.vi" Type="VI" URL="../Pages/Waveform Results Section.vi"/>
+			</Item>
+			<Item Name="RTMs" Type="Folder">
+				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../EnableDisable Main Page.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>

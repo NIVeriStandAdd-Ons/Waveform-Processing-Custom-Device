@@ -60,17 +60,109 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+	   <RunTimeMenu>
+        <MenuItem>
+          <GUID>01e8f077-156a-4698-bbdc-a047cf741b9d</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Disable</eng>
+            <loc>Disable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\EnableDisable Main Page.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
 	  <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
-    
+	<Page>
+      <Name>
+        <eng>Waveform-Processing-Custom-Device</eng>
+        <loc>Waveform-Processing-Custom-Device</loc>
+      </Name>
+      <GUID>7b547a45-b3bf-4a70-a525-6bc55fa12b7c</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\fpga device_disabled.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>01e8f077-156a-4698-bbdc-a047cf741b9d</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Enable</eng>
+            <loc>Enable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\EnableDisable Main Page.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
 <Page>
       <Name>
         <eng>Running Average Settings</eng>
         <loc>Running Average Settings</loc>
       </Name>
+	  <DisallowRenaming>true</DisallowRenaming>
+	  <DeleteProtection>true</DeleteProtection>
       <GUID>98bae003-a8c4-4cad-9e5d-6f3690f27bc7</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
@@ -83,39 +175,11 @@
     </Page>
 <Page>
       <Name>
-        <eng>Running Average Channel</eng>
-        <loc>Running Average Channel</loc>
+        <eng>Waveform Results Section</eng>
+        <loc>Waveform Results Section</loc>
       </Name>
-      <GUID>3790a34f-1e18-4e2c-a6c2-08a2f1ece6bf</GUID>
-      <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Running Average Channel.vi</Path>
-      </Item2Launch>
-</Page>
-<Page>
-      <Name>
-        <eng>Single-Point Channel</eng>
-        <loc>Single-Point Channel</loc>
-      </Name>
-      <GUID>2698625b-9704-4478-b349-ca718ccee4b2</GUID>
-      <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\ai section wfm.png</Path>
-	  </Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Single Point Channel.vi</Path>
-      </Item2Launch>
-</Page>
-<Page>
-      <Name>
-        <eng>Results Section</eng>
-        <loc>Results Section</loc>
-      </Name>
+	  <DisallowRenaming>true</DisallowRenaming>
+	  <DeleteProtection>true</DeleteProtection>
       <GUID>e38e89f1-3d1b-4012-b75e-d54b3a46b12e</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
@@ -123,7 +187,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Results Section.vi</Path>
+		<Path>Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Configuration.llb\Waveform Results Section.vi</Path>
       </Item2Launch>
  </Page>
   </Pages>
