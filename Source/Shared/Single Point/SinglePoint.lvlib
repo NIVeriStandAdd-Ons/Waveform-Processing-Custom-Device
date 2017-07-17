@@ -6,4 +6,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Engine" Type="Folder">
+		<Item Name="SinglePoint.vi" Type="VI" URL="../SinglePoint.vi"/>
+	</Item>
+	<Item Name="System Explorer" Type="Folder">
+		<Item Name="SinglePoint-AddResultChannels.vi" Type="VI" URL="../SinglePoint-AddResultChannels.vi"/>
+		<Item Name="SinglePoint-GetChannelRefs.vi" Type="VI" URL="../SinglePoint-GetChannelRefs.vi"/>
+		<Item Name="SinglePoint-RemoveResultChannel.vi" Type="VI" URL="../SinglePoint-RemoveResultChannel.vi"/>
+		<Item Name="SinglePoint-UpdateChannels.vi" Type="VI" URL="../SinglePoint-UpdateChannels.vi"/>
+	</Item>
 </Library>

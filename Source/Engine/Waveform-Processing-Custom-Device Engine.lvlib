@@ -4,13 +4,33 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
-		<Item Name="Init" Type="Folder"/>
-		<Item Name="Run" Type="Folder">
-			<Item Name="Waveform-Processing-Custom-Device.Async.vi" Type="VI" URL="../Waveform-Processing-Custom-Device.Async.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Get Async FIFO Refs.vi" Type="VI" URL="../Async/SubVIs/Get Async FIFO Refs.vi"/>
+			<Item Name="Init Async State Vars.vi" Type="VI" URL="../Async/SubVIs/Init Async State Vars.vi"/>
+			<Item Name="Init Buffer.vi" Type="VI" URL="../Async/SubVIs/Init Buffer.vi"/>
+			<Item Name="Read From VS Parameter FIFO.vi" Type="VI" URL="../Async/SubVIs/Read From VS Parameter FIFO.vi"/>
+			<Item Name="Read Wfm Data.vi" Type="VI" URL="../Async/SubVIs/Read Wfm Data.vi"/>
+			<Item Name="Update Buffer.vi" Type="VI" URL="../Async/SubVIs/Update Buffer.vi"/>
+			<Item Name="Write To VS Result FIFO.vi" Type="VI" URL="../Async/SubVIs/Write To VS Result FIFO.vi"/>
+			<Item Name="Write Wfm Data.vi" Type="VI" URL="../Async/SubVIs/Write Wfm Data.vi"/>
 		</Item>
-		<Item Name="Shut Down" Type="Folder"/>
+		<Item Name="Waveform-Processing-Custom-Device.Async.vi" Type="VI" URL="../Waveform-Processing-Custom-Device.Async.vi"/>
+	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Build Async Parameters.vi" Type="VI" URL="../SubVIs/Build Async Parameters.vi"/>
+		<Item Name="Close Wfm Sessions.vi" Type="VI" URL="../SubVIs/Close Wfm Sessions.vi"/>
+		<Item Name="Create Async FIFOs.vi" Type="VI" URL="../SubVIs/Create Async FIFOs.vi"/>
+		<Item Name="Get Block Data Refs.vi" Type="VI" URL="../SubVIs/Get Block Data Refs.vi"/>
+		<Item Name="Get Wfm Data Refs.vi" Type="VI" URL="../SubVIs/Get Wfm Data Refs.vi"/>
+		<Item Name="Open Waveform Sessions.vi" Type="VI" URL="../SubVIs/Open Waveform Sessions.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Old" Type="Folder">
+			<Item Name="Async FIFOs.ctl" Type="VI" URL="../Types/Async FIFOs.ctl"/>
+			<Item Name="Async Parameters.ctl" Type="VI" URL="../Types/Async Parameters.ctl"/>
+			<Item Name="Inline State Vars.ctl" Type="VI" URL="../Types/Inline State Vars.ctl"/>
+		</Item>
+		<Item Name="AsyncStateVariables.ctl" Type="VI" URL="../Types/AsyncStateVariables.ctl"/>
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>

@@ -413,6 +413,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
@@ -430,12 +431,11 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async FIFOs.ctl" Type="VI" URL="../Engine/Types/Async FIFOs.ctl"/>
-			<Item Name="Async State Vars.ctl" Type="VI" URL="../Engine/Types/Async State Vars.ctl"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2015/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
 			<Item Name="LogSort_Partition.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Partition.vi"/>
 			<Item Name="LogSort_Stack.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Stack.vi"/>
 			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -677,6 +677,7 @@ DirectoryIndex index.htm
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
@@ -694,12 +695,11 @@ DirectoryIndex index.htm
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async FIFOs.ctl" Type="VI" URL="../Engine/Types/Async FIFOs.ctl"/>
-			<Item Name="Async State Vars.ctl" Type="VI" URL="../Engine/Types/Async State Vars.ctl"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2015/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
 			<Item Name="LogSort_Partition.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Partition.vi"/>
 			<Item Name="LogSort_Stack.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Stack.vi"/>
 			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -909,6 +909,7 @@ DirectoryIndex index.htm
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
@@ -926,12 +927,11 @@ DirectoryIndex index.htm
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async FIFOs.ctl" Type="VI" URL="../Engine/Types/Async FIFOs.ctl"/>
-			<Item Name="Async State Vars.ctl" Type="VI" URL="../Engine/Types/Async State Vars.ctl"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2015/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
 			<Item Name="LogSort_Partition.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Partition.vi"/>
 			<Item Name="LogSort_Stack.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Stack.vi"/>
 			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1142,6 +1142,7 @@ DirectoryIndex index.htm
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
@@ -1159,12 +1160,11 @@ DirectoryIndex index.htm
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async FIFOs.ctl" Type="VI" URL="../Engine/Types/Async FIFOs.ctl"/>
-			<Item Name="Async State Vars.ctl" Type="VI" URL="../Engine/Types/Async State Vars.ctl"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2015/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
 			<Item Name="LogSort_Partition.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Partition.vi"/>
 			<Item Name="LogSort_Stack.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_Stack.vi"/>
 			<Item Name="LogSort_StackHandler.vi" Type="VI" URL="../System Explorer/logicalstringarraysort.llb/LogSort_StackHandler.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
