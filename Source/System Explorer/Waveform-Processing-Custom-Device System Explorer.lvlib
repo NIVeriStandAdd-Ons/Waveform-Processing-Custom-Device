@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
+			<Item Name="Actions" Type="Folder">
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Running Average Channel.vi" Type="VI" URL="../Pages/Running Average Channel.vi"/>
 				<Item Name="Running Averiage Settings.vi" Type="VI" URL="../Pages/Running Averiage Settings.vi"/>
@@ -12,12 +15,25 @@
 				<Item Name="Single Point Channel.vi" Type="VI" URL="../Pages/Single Point Channel.vi"/>
 				<Item Name="Waveform Results Section.vi" Type="VI" URL="../Pages/Waveform Results Section.vi"/>
 			</Item>
-			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
+			<Item Name="RTMs" Type="Folder">
+				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../EnableDisable Main Page.vi"/>
+				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
+			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Add Waveform Sections.vi" Type="VI" URL="../SubVIs/Add Waveform Sections.vi"/>
+			<Item Name="Add Waveforms from ListBox.vi" Type="VI" URL="../SubVIs/Add Waveforms from ListBox.vi"/>
+			<Item Name="Get Source Wfm Refs.vi" Type="VI" URL="../SubVIs/Get Source Wfm Refs.vi"/>
+			<Item Name="Get Task Rate.vi" Type="VI" URL="../SubVIs/Get Task Rate.vi"/>
+			<Item Name="Get Waveform Section Refs.vi" Type="VI" URL="../SubVIs/Get Waveform Section Refs.vi"/>
+			<Item Name="Get Waveform Tasks.vi" Type="VI" URL="../SubVIs/Get Waveform Tasks.vi"/>
+			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../logicalstringarraysort.llb/Logical String Array Sort.vi"/>
+			<Item Name="Populate Available Wfms.vi" Type="VI" URL="../SubVIs/Populate Available Wfms.vi"/>
+			<Item Name="Remove All Waveforms.vi" Type="VI" URL="../SubVIs/Remove All Waveforms.vi"/>
+			<Item Name="Remove Waveforms from ListBox.vi" Type="VI" URL="../SubVIs/Remove Waveforms from ListBox.vi"/>
+		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>

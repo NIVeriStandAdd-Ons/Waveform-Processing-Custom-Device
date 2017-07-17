@@ -5,8 +5,15 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
-			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
+			<Item Name="CompiledSettings.ctl" Type="VI" URL="../CompiledSettings.ctl"/>
+			<Item Name="Custom Device Settings.ctl" Type="VI" URL="../Custom Device Settings.ctl"/>
+			<Item Name="FG Action.ctl" Type="VI" URL="../Types/FG Action.ctl"/>
+			<Item Name="UI Refs Ctl.ctl" Type="VI" URL="../../System Explorer/Types/UI Refs Ctl.ctl"/>
 		</Item>
+		<Item Name="CD Config Settings FG.vi" Type="VI" URL="../CD Config Settings FG.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="Running Average.lvlib" Type="Library" URL="../Running Average/Running Average.lvlib"/>
+		<Item Name="Scaled Waveform.lvlib" Type="Library" URL="../Scaled Waveform/Scaled Waveform.lvlib"/>
+		<Item Name="SinglePoint.lvlib" Type="Library" URL="../Single Point/SinglePoint.lvlib"/>
 	</Item>
 </Library>
