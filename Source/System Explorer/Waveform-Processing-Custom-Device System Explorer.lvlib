@@ -6,11 +6,11 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Running Average Channel.vi" Type="VI" URL="../Running Average Channel.vi"/>
-				<Item Name="Running Averiage Settings.vi" Type="VI" URL="../Running Averiage Settings.vi"/>
-				<Item Name="Scaled Waveform Channel.vi" Type="VI" URL="../Scaled Waveform Channel.vi"/>
-				<Item Name="Single Point Channel.vi" Type="VI" URL="../Single Point Channel.vi"/>
-				<Item Name="Waveform Results Section.vi" Type="VI" URL="../Waveform Results Section.vi"/>
+				<Item Name="Running Average Channel.vi" Type="VI" URL="../Pages/Running Average Channel.vi"/>
+				<Item Name="Running Averiage Settings.vi" Type="VI" URL="../Pages/Running Averiage Settings.vi"/>
+				<Item Name="Scaled Waveform Channel.vi" Type="VI" URL="../Pages/Scaled Waveform Channel.vi"/>
+				<Item Name="Single Point Channel.vi" Type="VI" URL="../Pages/Single Point Channel.vi"/>
+				<Item Name="Waveform Results Section.vi" Type="VI" URL="../Pages/Waveform Results Section.vi"/>
 			</Item>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
