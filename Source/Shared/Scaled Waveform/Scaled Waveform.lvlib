@@ -6,6 +6,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Engine" Type="Folder"/>
-	<Item Name="System Explorer" Type="Folder"/>
+	<Item Name="Engine" Type="Folder">
+		<Item Name="Scaled Waveform.vi" Type="VI" URL="../../../Engine/Async/Processing Steps/Scaled Waveform.vi"/>
+	</Item>
+	<Item Name="System Explorer" Type="Folder">
+		<Item Name="ScaledWaveform-AddResultChannel.vi" Type="VI" URL="../ScaledWaveform-AddResultChannel.vi"/>
+		<Item Name="ScaledWaveform-GetChannelRefs.vi" Type="VI" URL="../ScaledWaveform-GetChannelRefs.vi"/>
+		<Item Name="ScaledWaveform-RemoveResultChannel.vi" Type="VI" URL="../ScaledWaveform-RemoveResultChannel.vi"/>
+		<Item Name="ScaledWaveform-UpdateChannels.vi" Type="VI" URL="../ScaledWaveform-UpdateChannels.vi"/>
+	</Item>
 </Library>
