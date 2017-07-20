@@ -12,7 +12,7 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="RunningAverage-AddResultChannels.vi" Type="VI" URL="../RunningAverage-AddResultChannels.vi"/>
 		<Item Name="RunningAverage-AddSection.vi" Type="VI" URL="../RunningAverage-AddSection.vi"/>
-		<Item Name="RunningAverage-GetChannelRefs.vi" Type="VI" URL="../RunningAverage-GetChannelRefs.vi"/>
+		<Item Name="RunningAverage-GetGroupData.vi" Type="VI" URL="../RunningAverage-GetGroupData.vi"/>
 		<Item Name="RunningAverage-RemoveResultChannel.vi" Type="VI" URL="../RunningAverage-RemoveResultChannel.vi"/>
 		<Item Name="RunningAverage-RemoveResultChannels.vi" Type="VI" URL="../RunningAverage-RemoveResultChannels.vi"/>
 		<Item Name="RunningAverage-RemoveSection.vi" Type="VI" URL="../RunningAverage-RemoveSection.vi"/>
