@@ -11,8 +11,10 @@
 	</Item>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="ScaledWaveform-AddResultChannel.vi" Type="VI" URL="../ScaledWaveform-AddResultChannel.vi"/>
+		<Item Name="ScaledWaveform-AddScaleParameterChannel.vi" Type="VI" URL="../ScaledWaveform-AddScaleParameterChannel.vi"/>
 		<Item Name="ScaledWaveform-GetChannelRefs.vi" Type="VI" URL="../ScaledWaveform-GetChannelRefs.vi"/>
 		<Item Name="ScaledWaveform-RemoveResultChannel.vi" Type="VI" URL="../ScaledWaveform-RemoveResultChannel.vi"/>
+		<Item Name="ScaledWaveform-RemoveScaleParameterChannel.vi" Type="VI" URL="../ScaledWaveform-RemoveScaleParameterChannel.vi"/>
 		<Item Name="ScaledWaveform-UpdateChannels.vi" Type="VI" URL="../ScaledWaveform-UpdateChannels.vi"/>
 	</Item>
 </Library>
