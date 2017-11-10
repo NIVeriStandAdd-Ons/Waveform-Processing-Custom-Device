@@ -71,6 +71,7 @@
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="Keyed Value Tree.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Compiled HTML Menu Tool/Keyed Value Tree/Keyed Value Tree.lvclass"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Load CHM Page.vi" Type="VI" URL="/&lt;vilib&gt;/ni/Compiled HTML Menu Tool/Load CHM Page.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -133,7 +134,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME/Windows/Waveform-Processing-Custom-Device Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DD75D4D9-630E-4427-B0EB-D9E01F3EFB6C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{844BD2F2-3E7C-47C4-BF3D-DE030D18B5B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Waveform-Processing-Custom-Device.xml</Property>
@@ -155,6 +156,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -165,7 +167,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME/Windows/Waveform-Processing-Custom-Device Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{90E9BAC3-E279-4F5A-815F-AB8F31C94B63}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{844BD2F2-3E7C-47C4-BF3D-DE030D18B5B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Waveform-Processing-Custom-Device.xml</Property>
@@ -408,6 +410,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
+				<Item Name="Load CHM Page.vi" Type="VI" URL="/&lt;vilib&gt;/ni/Compiled HTML Menu Tool/Load CHM Page.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -671,6 +674,7 @@ DirectoryIndex index.htm
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
+				<Item Name="Load CHM Page.vi" Type="VI" URL="/&lt;vilib&gt;/ni/Compiled HTML Menu Tool/Load CHM Page.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -902,6 +906,7 @@ DirectoryIndex index.htm
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
+				<Item Name="Load CHM Page.vi" Type="VI" URL="/&lt;vilib&gt;/ni/Compiled HTML Menu Tool/Load CHM Page.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -1134,6 +1139,7 @@ DirectoryIndex index.htm
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
+				<Item Name="Load CHM Page.vi" Type="VI" URL="/&lt;vilib&gt;/ni/Compiled HTML Menu Tool/Load CHM Page.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>

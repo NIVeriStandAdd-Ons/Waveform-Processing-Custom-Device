@@ -9,10 +9,7 @@
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Running Average Channel.vi" Type="VI" URL="../Pages/Running Average Channel.vi"/>
-				<Item Name="Running Averiage Settings.vi" Type="VI" URL="../Pages/Running Averiage Settings.vi"/>
-				<Item Name="Scaled Waveform Channel.vi" Type="VI" URL="../Pages/Scaled Waveform Channel.vi"/>
-				<Item Name="Single Point Channel.vi" Type="VI" URL="../Pages/Single Point Channel.vi"/>
+				<Item Name="Running Average Settings.vi" Type="VI" URL="../Pages/Running Average Settings.vi"/>
 				<Item Name="Waveform Results Section.vi" Type="VI" URL="../Pages/Waveform Results Section.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
@@ -30,7 +27,6 @@
 			<Item Name="Get Waveform Section Refs.vi" Type="VI" URL="../SubVIs/Get Waveform Section Refs.vi"/>
 			<Item Name="Get Waveform Tasks.vi" Type="VI" URL="../SubVIs/Get Waveform Tasks.vi"/>
 			<Item Name="Get Wfm Refs.vi" Type="VI" URL="../SubVIs/Get Wfm Refs.vi"/>
-			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
 			<Item Name="Logical String Array Sort.vi" Type="VI" URL="../logicalstringarraysort.llb/Logical String Array Sort.vi"/>
 			<Item Name="Populate Available Wfms.vi" Type="VI" URL="../SubVIs/Populate Available Wfms.vi"/>
 			<Item Name="Remove All Waveforms.vi" Type="VI" URL="../SubVIs/Remove All Waveforms.vi"/>
