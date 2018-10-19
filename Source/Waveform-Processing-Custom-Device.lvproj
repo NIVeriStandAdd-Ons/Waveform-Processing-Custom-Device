@@ -166,7 +166,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/NI_AB_PROJECTNAME/Windows/Waveform-Processing-Custom-Device Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9331F4AC-F923-495F-B31E-4BC460C34E78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D4058894-D68C-475E-8105-AF1C4E52CB8C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Waveform-Processing-Custom-Device.xml</Property>
