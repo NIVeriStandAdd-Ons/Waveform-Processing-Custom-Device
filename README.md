@@ -20,7 +20,8 @@ This custom device is provided as an open-source reference example and is not su
 This custom device should be considered a proof of concept. It has not been tested recently or in many system configurations. 
 1. The custom device only supports using waveforms from the DAQ section of the System Definition
 2. The custom device only supports processing waveforms belonging to a single DAQ Task
-3. The custom device only supports two calculations: a running average and the latest available single-point value of the waveform 
+3. The custom device only supports two calculations to generate channels: a running average and the latest available single-point value of the waveform 
+4. The custom device only generates a scaled version of the waveforms that are being processed. Users can use this scaling as an example to try implementing a more complex type of processing for their waveforms
 
 ### License ###
 
