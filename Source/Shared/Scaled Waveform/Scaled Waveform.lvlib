@@ -13,6 +13,7 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="ScaledWaveform-AddResultWaveforms.vi" Type="VI" URL="../ScaledWaveform-AddResultWaveforms.vi"/>
 		<Item Name="ScaledWaveform-AddSection.vi" Type="VI" URL="../ScaledWaveform-AddSection.vi"/>
+		<Item Name="ScaledWaveform-GetChannelsRefs.vi" Type="VI" URL="../ScaledWaveform-GetChannelsRefs.vi"/>
 		<Item Name="ScaledWaveform-RemoveResultWaveforms.vi" Type="VI" URL="../ScaledWaveform-RemoveResultWaveforms.vi"/>
 		<Item Name="ScaledWaveform-RemoveSection.vi" Type="VI" URL="../ScaledWaveform-RemoveSection.vi"/>
 		<Item Name="ScaledWaveform-UpdateWaveforms.vi" Type="VI" URL="../ScaledWaveform-UpdateWaveforms.vi"/>
