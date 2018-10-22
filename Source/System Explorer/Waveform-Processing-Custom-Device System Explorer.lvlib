@@ -10,6 +10,7 @@
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="Running Average Settings.vi" Type="VI" URL="../Pages/Running Average Settings.vi"/>
+				<Item Name="Scaled Waveform Settings.vi" Type="VI" URL="../Pages/Scaled Waveform Settings.vi"/>
 				<Item Name="Waveform Results Section.vi" Type="VI" URL="../Pages/Waveform Results Section.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">

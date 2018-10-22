@@ -175,6 +175,23 @@
     </Page>
 <Page>
       <Name>
+        <eng>Scaled Waveform Settings</eng>
+        <loc>Scaled Waveform Settings</loc>
+      </Name>
+	  <DisallowRenaming>true</DisallowRenaming>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>573b5558-ec58-48eb-8ed3-20ae50d5140e</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\sim parameters.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Waveform-Processing-Custom-Device\Windows\Waveform-Processing-Custom-Device Configuration.llb\Scaled Waveform Settings.vi</Path>
+      </Item2Launch>
+</Page>
+<Page>
+      <Name>
         <eng>Waveform Results Section</eng>
         <loc>Waveform Results Section</loc>
       </Name>

@@ -1,0 +1,31 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\waveform processing'
+
+[projects.cd]
+path = 'Source\Waveform-Processing-Custom-Device.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+[package]
+type = 'nipkg'
+dev_xml_path = 'Source\Custom Device Waveform-Processing-Custom-Device.xml'
+nipkg_staging_paths = { 'Built' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices' }
+
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+2016_release_branches = ["master",]
+2017_release_branches = ["master",]
+2018_release_branches = ["master",]

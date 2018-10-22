@@ -10,6 +10,7 @@
 			<Item Name="Init Buffer.vi" Type="VI" URL="../Async/SubVIs/Init Buffer.vi"/>
 			<Item Name="Read From VS Parameter FIFO.vi" Type="VI" URL="../Async/SubVIs/Read From VS Parameter FIFO.vi"/>
 			<Item Name="Read Wfm Data.vi" Type="VI" URL="../Async/SubVIs/Read Wfm Data.vi"/>
+			<Item Name="Start Result Waveforms (First Call).vi" Type="VI" URL="../Async/SubVIs/Start Result Waveforms (First Call).vi"/>
 			<Item Name="Update Buffer.vi" Type="VI" URL="../Async/SubVIs/Update Buffer.vi"/>
 			<Item Name="Write To VS Result FIFO.vi" Type="VI" URL="../Async/SubVIs/Write To VS Result FIFO.vi"/>
 			<Item Name="Write Wfm Data.vi" Type="VI" URL="../Async/SubVIs/Write Wfm Data.vi"/>
