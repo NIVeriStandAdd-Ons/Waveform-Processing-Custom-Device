@@ -21,7 +21,7 @@ This custom device should be considered a proof of concept. It has not been test
 1. The custom device only supports using waveforms from the DAQ section of the System Definition
 2. The custom device only supports processing waveforms belonging to a single DAQ Task
 3. The custom device only supports two calculations to generate channels: a running average and the latest available single-point value of the waveform 
-4. The custom device only generates a scaled version of the waveforms that are being processed. Users can use this scaling as an example to try implementing a more complex type of processing for their waveforms
+4. The custom device only generates a scaled version of the waveforms that are being processed. Users can use this scaling as an example to try implementing a more complex type of processing for their waveforms by replacing this simple scaling. For more information visit the wiki [Replacing Scaled Waveform with Custom Processing](https://github.com/NIVeriStandAdd-Ons/Waveform-Processing-Custom-Device/wiki/Replacing-Scaled-Waveform-with-Custom-Processing)
 
 ### License ###
 This package is provided under the Apache 2.0 open-source software license.
