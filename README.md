@@ -5,9 +5,7 @@ The Waveform Processing Custom Device is an example of a basic plugin which perf
 ### Software Dependencies ###
 * NI LabVIEW 2015 Development Environment or later
 * NI VeriStand 2015 or later
-* [Inline-Async API](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
-* [VeriStand Error API](https://github.com/NIVeriStandAdd-Ons/VeriStand-Error-API)
-* [VeriStand Import and Export Tool](https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool)
+* [VeriStand Development Tools VIPC](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/VeriStand-Development-Tools-VIPC/ta-p/3632685)
 * [Software Circular Buffer Reference Library](http://www.ni.com/example/30883/en/)
 
 ### Built Availability ###
