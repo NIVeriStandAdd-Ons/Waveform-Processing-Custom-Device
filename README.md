@@ -3,8 +3,8 @@
 The Waveform Processing Custom Device is an example of a basic plugin which performs processing or calculations on waveform channels within NI VeriStand. This custom device should be viewed as a starting point for development. It may contain bugs. 
 
 ### Software Dependencies ###
-* NI LabVIEW 2015 Development Environment or later
-* NI VeriStand 2015 or later
+* NI LabVIEW 2016 Development Environment or later
+* NI VeriStand 2016 or later
 * [VeriStand Development Tools VIPC](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/VeriStand-Development-Tools-VIPC/ta-p/3632685)
 * [Software Circular Buffer Reference Library](http://www.ni.com/example/30883/en/)
 
