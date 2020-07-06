@@ -29,3 +29,5 @@ type = 'githubRelease'
 2016_release_branches = ["master",]
 2017_release_branches = ["master",]
 2018_release_branches = ["master",]
+2019_release_branches = ["master",]
+2020_release_branches = ["master",]
