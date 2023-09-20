@@ -41,7 +41,7 @@
 				  <Type>To Common Doc Dir</Type>
 				  <Path>Custom Devices\Waveform-Processing-Custom-Device\Linux_x64\Waveform-Processing-Custom-Device Engine Linux64.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Waveform-Processing-Custom-Device\Waveform-Processing-Custom-Device Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Waveform-Processing-Custom-Device\RT Driver VI.vi</RealTimeSystemDestination>
 			  </Source>
 			</SourceDistribution>
 		</SourceDistribution>
